@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Red Theme - Elegant Furniture</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      padding: 60px 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+    a {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 12px 24px;
+      background: white;
+      color: #ef5350;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Feedback Box */
+    .feedback-box {
+      background: rgba(255, 255, 255, 0.9);
+      color: #333;
+      max-width: 400px;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .feedback-box input,
+    .feedback-box textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+    .feedback-box button {
+      background: #ef5350;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .feedback-box button:hover {
+      background: #d32f2f;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Welcome to the Red Themed Page 🟥</h1>
+    <p>Explore stylish and modern red-colored furniture designs.</p>
+
+    <a href="index.html">⬅️ Back to Home</a>
+
+    <div class="feedback-box">
+      <h2>💬 Leave Your Feedback</h2>
+      <input type="text" placeholder="Your Name" required />
+      <textarea rows="4" placeholder="What do you think about our red furniture?" required></textarea>
+      <button onclick="alert('Thank you for your feedback!')">Submit</button>
+    </div>
+  </div>
+</body>
+</html>

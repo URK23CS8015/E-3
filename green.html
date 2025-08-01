@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Green Theme - Elegant Furniture</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1615874959474-d609969a09f1') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      padding: 60px 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+    a {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 12px 24px;
+      background: white;
+      color: #66bb6a;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    a:hover {
+      background-color: #f1f1f1;
+    }
+    .feedback-box {
+      background: rgba(255, 255, 255, 0.9);
+      color: #333;
+      max-width: 400px;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 12px;
+    }
+    .feedback-box input,
+    .feedback-box textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .feedback-box button {
+      background: #66bb6a;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .feedback-box button:hover {
+      background: #4caf50;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Welcome to the Green Themed Page 🟢</h1>
+    <p>Fresh, calming, and nature-inspired furniture just for you.</p>
+    <a href="index.html">⬅️ Back to Home</a>
+    <div class="feedback-box">
+      <h2>💬 Leave Your Feedback</h2>
+      <input type="text" placeholder="Your Name" />
+      <textarea rows="4" placeholder="What do you think about our green furniture?"></textarea>
+      <button onclick="alert('Thank you for your feedback!')">Submit</button>
+    </div>
+  </div>
+</body>
+</html>
